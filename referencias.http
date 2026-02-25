@@ -1,3 +1,13 @@
 ###
 
 Get http://localhost:1584/usuarios
+
+###
+
+POST http://localhost:1584/usuarios
+Content-Type: application/json
+
+{
+    "nome": "Iago",
+    "idade": 16
+}
